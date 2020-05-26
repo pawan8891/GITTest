@@ -38,6 +38,7 @@ public void navMenuVerify() throws IOException, InterruptedException
 	Assert.assertTrue(lp.navHeader().isDisplayed());
 	log.info("Verified Nav header is displayed");
 	System.out.println("Pooja");
+	System.out.println("Goswami");
 }
 @Test
 public void verifyHeaderSec() throws IOException, InterruptedException
