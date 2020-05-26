@@ -37,6 +37,7 @@ public void navMenuVerify() throws IOException, InterruptedException
 	log.info("No Thanks link clicked");
 	Assert.assertTrue(lp.navHeader().isDisplayed());
 	log.info("Verified Nav header is displayed");
+	System.out.println("Pooja");
 }
 @Test
 public void verifyHeaderSec() throws IOException, InterruptedException
